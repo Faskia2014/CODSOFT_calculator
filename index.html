@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="nums" readonly>
+            <div class="keys">
+                <button onclick="clearInput()">Ac</button>
+                <button onclick="deleteInput()">Del</button>
+                <button id="vals" onclick="conInput('.')">.</button>
+                <button id="vals" onclick="conInput('/')">/</button>
+                <button id="vals" onclick="conInput('7')">7</button>
+                <button id="vals" onclick="conInput('8')">8</button>
+                <button id="vals" onclick="conInput('9')">9</button>
+                <button id="vals" onclick="conInput('*')">*</button>
+                <button id="vals" onclick="conInput('4')">4</button>
+                <button id="vals" onclick="conInput('5')">5</button>
+                <button id="vals" onclick="conInput('6')">6</button>
+                <button id="vals" onclick="conInput('-')">-</button>
+                <button id="vals" onclick="conInput('1')">1</button>
+                <button id="vals" onclick="conInput('2')">2</button>
+                <button id="vals" onclick="conInput('3')">3</button>
+                <button id="vals" onclick="conInput('+')" >+</button>
+                <button id="vals" onclick="conInput('00')">00</button>
+                <button id="vals" onclick="conInput('0')">0</button>
+                <button id="equal" onclick=" calculateVals()">=</button>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
